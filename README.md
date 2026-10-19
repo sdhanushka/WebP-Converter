@@ -4,7 +4,7 @@ Convert JPG, PNG, GIF, BMP, TIFF and other images to WebP on your own Windows PC
 
 ## Download
 
-**[Download the latest installer](https://github.com/sdhanushka/WebP-Converter/releases/latest)**: `ElevionTechWebPConverter-Setup-1.0.1-x64.exe`
+**[Download the latest installer](https://github.com/sdhanushka/WebP-Converter/releases/latest)**: under **Assets**, choose `ElevionTechWebPConverter-Setup-<version>-x64.exe`.
 
 Requires Windows 10 or 11 (64-bit).
 
@@ -28,7 +28,7 @@ Setup installs Microsoft's WebView2 Runtime if your PC doesn't already have it, 
 Each release includes a `.sha256` file. To confirm your download is intact, run this in PowerShell in the folder where you saved it:
 
 ```powershell
-Get-FileHash .\ElevionTechWebPConverter-Setup-1.0.1-x64.exe -Algorithm SHA256
+Get-FileHash .\ElevionTechWebPConverter-Setup-*-x64.exe -Algorithm SHA256
 ```
 
 The hash shown should match the one in the `.sha256` file.
